@@ -5,7 +5,7 @@ public class Refactorizacion
 
 	public double calcularPrecio(int unidades, double precioUnitario) {
 		
-		return unidades*precioUnitario;
+		return((((unidades*precioUnitario)*21)/100)+(unidades*precioUnitario));
 		
 	}
 	
