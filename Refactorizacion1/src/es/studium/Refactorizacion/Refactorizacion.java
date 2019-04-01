@@ -4,8 +4,8 @@ public class Refactorizacion
 {
 
 	public double calcularPrecio(int unidades, double precioUnitario) {
-		
-		return((((unidades*precioUnitario)*21)/100)+(unidades*precioUnitario));
+		final int IVA = 21;
+		return((((unidades*precioUnitario)*IVA)/100)+(unidades*precioUnitario));
 		
 	}
 	
